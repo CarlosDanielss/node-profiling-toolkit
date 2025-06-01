@@ -1,0 +1,7 @@
+{
+  "name": "node-profiling-toolkit",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
