@@ -1,0 +1,28 @@
+{
+  "name": "@node-profiling-tolkit/core",
+  "version": "1.0.0",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "engines": {
+    "node": "<=22.16.0"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts"
+  },
+  "keywords": [
+    "profiler",
+    "nodejs",
+    "cpu",
+    "memory"
+  ],
+  "author": "Carlos Daniel",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.15.29",
+    "ts-node": "10.9.2",
+    "tsup": "8.5.0",
+    "typescript": "5.8.3"
+  }
+}
