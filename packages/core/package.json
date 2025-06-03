@@ -5,12 +5,12 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "type": "module",
-  "engines": {
-    "node": "<=22.16.0"
-  },
   "scripts": {
-    "build": "tsup src/index.ts"
+    "build": "tsup src/index.ts && yalc publish"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "profiler",
     "nodejs",
@@ -24,5 +24,8 @@
     "ts-node": "10.9.2",
     "tsup": "8.5.0",
     "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "cpupro": "0.7.0"
   }
 }
